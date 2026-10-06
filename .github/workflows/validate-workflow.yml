@@ -13,6 +13,6 @@ jobs:
           run: test -f index.html
 
         - name: validate js file
-          run: test -f script.html
+          run: test -f script.js
 
  
