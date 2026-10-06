@@ -10,9 +10,9 @@ jobs:
           uses: actions/checkout@v4
        
         - name: validate Html file
-          uses: test -f index.html
+          run: test -f index.html
 
         - name: validate js file
-          uses: test -f script.html
+          run: test -f script.html
 
  
