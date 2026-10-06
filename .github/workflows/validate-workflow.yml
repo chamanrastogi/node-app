@@ -15,4 +15,7 @@ jobs:
         - name: validate js file
           run: test -f script.js
 
+        - name: validate js code
+          run: node --check script.js  
+
  
