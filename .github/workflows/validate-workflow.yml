@@ -7,7 +7,7 @@ jobs:
      runs-on: ubuntu-latest
      steps:
         - name: get-repo-code
-          uses: actions/checkout@v4
+          uses: actions/checkout@v5
        
         - name: validate Html file
           run: test -f index.html
