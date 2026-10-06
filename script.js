@@ -1,1 +1,1 @@
-console.log("Hello this is my scrip
+console.log("Hello this is my script");
