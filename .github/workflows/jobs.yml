@@ -24,7 +24,7 @@ jobs:
 
              
     validate-code:
-   #  needs: [validate-html,validate-js]
+     needs: [validate-html,validate-js]
      runs-on: ubuntu-latest
      steps:
         - name: get-repo-code
