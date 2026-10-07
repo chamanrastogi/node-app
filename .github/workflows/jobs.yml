@@ -1,6 +1,6 @@
 name: Jobs Test
 on: 
-  workflow_dispatch:
+  push:
 jobs:
     validate-html:
      runs-on: ubuntu-latest
