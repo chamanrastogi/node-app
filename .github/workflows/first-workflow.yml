@@ -9,3 +9,5 @@ jobs:
       run: echo "Hello, this new  world!"
     - name: Bye Github Action
       run: echo "Bye github action!"
+    - name: Fail Job
+      run: Exit 1  
